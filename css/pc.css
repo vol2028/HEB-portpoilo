@@ -1,6 +1,6 @@
 /* section1 */
 #section1{
-    background-image: url(../images/bg1.jpg);
+    background-image: url(../images/bg2.jpg);
 
 }
 #section1 .container .main-box{
@@ -575,10 +575,45 @@ color: #BCCEDC;
     font-weight: 400;
     color: var(--main-color);
     outline: 1px solid red;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #grapic p{
     font-size: 20px;
+    color: #545454;
     
 }
 
+/* contact-us */
+#contact-us{
+    background-image:url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    }
+
+#contact-us h1{
+    font-family: 'hesomcha';
+    font-size: 60px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color:#959595;
+}
+
+#contact-us .plus{
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 6px;
+    color:#6A6A6A;
+}
+
+#contact-us .call{
+    font-size: 40px;
+    margin-bottom: 6px;
+    color:#404040;
+}
+
+#contact-us .nocommerce{
+    font-size: 16px;
+    padding-top: 10px;
+    color:#959595;
+}
