@@ -1,0 +1,584 @@
+/* section1 */
+#section1{
+    background-image: url(images/bg1.jpg);
+
+}
+#section1 .container .main-box{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    
+    
+
+}
+#section1 .container .main-box .main-txt {
+    font-family: 'Papyrus';
+    text-align: center;
+    margin-right: 50px;
+}
+#section1 .main-txt > p{
+    font-size:4rem;
+    color: var(--txt-color);
+}
+#section1 .main-txt h1 {
+    font-size: 8rem;
+    color: var(--main-color);
+    font-weight: 500;
+}
+#section1 .bg-img>img {
+    width: 400px;
+    height: 442px;
+}
+/*aboutme*/
+#aboutme {
+    width: 100%;
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#aboutme .t-box{
+    display: inline;
+    margin: 0 auto;
+    width: 1280px;
+    height: 800px;
+    outline: 1px solid blue;
+    
+}
+#aboutme .web-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 1280px;
+    margin: auto;
+    outline: 1px solid red;
+   }
+
+#aboutme .t-box h2 {
+    margin-left:-30px;
+    font-family: 'hesomcha';
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    
+}
+
+#aboutme .left {
+    margin-left: 150px;
+}
+
+
+#aboutme .left .intro {
+    font-size: 16px;
+}
+
+#aboutme .left .intro span {
+    font-weight: 600;
+}
+
+#aboutme .left>img {
+    width: 246px;
+
+}
+
+#aboutme .left>h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#aboutme .left .pro-box {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#aboutme .left .pro-box .box {
+    font-size: 16px;
+    line-height: 2em;
+    color: #545454;
+    margin-right: 30px;
+}
+
+/* right */
+#aboutme .right {
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+#aboutme .right>h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#aboutme .right .pro-box {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+
+}
+
+#aboutme .right .pro-box .box {
+    font-size: 16px;
+    line-height: 2em;
+    color: #545454;
+    margin-right: 40px;
+}
+
+/* portpolio-1 */
+#portpolio-1 {
+
+    background-image: url(../images/portpoilo-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-1 .flex {
+width: 1280px;
+margin: auto;
+}
+
+#portpolio-1 .pc {
+    margin-top: 100px;
+    height: 400px;
+
+
+}
+
+#portpolio-1 .pc:hover {
+    background-position: center -1110px;
+}
+
+#portpolio-1 .mac {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+#portpolio-1 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+
+}
+
+#portpolio-1 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-1 .logo {
+    width: 260px;
+    height: 80px;
+    margin-bottom: 180px;
+}
+
+#portpolio-1 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-1 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-1 .portpolio-txt-box .btn{
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-1 .portpolio-txt-box .btn a{
+color: #5A5A5A;
+}
+
+/* portpolio-2 */
+#portpolio-2 {
+
+    background-image: url(../images/portpoilo-bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-2 .flex {
+width: 1280px;
+margin: auto;
+}
+
+#portpolio-2 .pc {
+    margin-top: 100px;
+    height: 400px;
+
+
+}
+
+#portpolio-2 .pc:hover {
+    background-position: center -1110px;
+}
+
+#portpolio-2 .mac {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+#portpolio-2 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+
+}
+
+#portpolio-2 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-2 .logo {
+    width: 260px;
+    
+    margin-bottom: 180px;
+}
+
+#portpolio-2 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-2 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-2 .portpolio-txt-box .btn{
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-2 .portpolio-txt-box .btn a{
+color: #5A5A5A;
+}
+
+
+/* portpolio-3 */
+#portpolio-3 {
+
+    background-image: url(../images/portpoilo-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-3 .flex {
+width: 1280px;
+margin: auto;
+}
+
+#portpolio-3 .pc {
+    margin-top: 100px;
+    height: 400px;
+
+
+}
+
+#portpolio-3 .pc:hover {
+    background-position: center -1110px;
+}
+
+#portpolio-3 .mac {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+#portpolio-3 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+
+}
+
+#portpolio-3 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-3 .logo {
+    width: 260px;
+    
+    margin-bottom: 180px;
+}
+
+#portpolio-3 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-3 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-3 .portpolio-txt-box .btn{
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-3 .portpolio-txt-box .btn a{
+color: #5A5A5A;
+}
+
+
+/* portpolio-4 */
+#portpolio-4 {
+
+    background: #2C7BCA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-4 .flex {
+width: 1280px;
+margin: auto;
+}
+
+#portpolio-4 .pc {
+    margin-top: 100px;
+    height: 400px;
+
+
+}
+
+#portpolio-4 .pc:hover {
+    background-position: center -1110px;
+}
+
+#portpolio-4 .mac {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+#portpolio-4 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+
+}
+
+#portpolio-4 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-4 .logo {
+    width: 260px;
+    margin-bottom: 100px;
+}
+
+#portpolio-4 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-4 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-4 .portpolio-txt-box .btn{
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-4 .portpolio-txt-box .btn a{
+color: #2C7BCA;
+}
+
+
+/* portpolio-4 */
+#portpolio-5 {
+
+    background: #BCCEDC;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-5 .flex {
+width: 1280px;
+margin: auto;
+}
+
+#portpolio-5 .mobile {
+    margin-top:35px;
+    height: 600px;
+    width: 50%;
+    outline: 1px solid red;
+    position: relative;
+
+}
+
+#portpolio-5 .pc:hover {
+    background-position: center -1110px;
+}
+
+#portpolio-5 .phone {
+    top:10%; left:30%; 
+    display:block;
+    position: absolute;
+    width: 280px;
+    height: 480px;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+#portpolio-5 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+
+}
+
+#portpolio-5 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-5 .logo {
+    width: 260px;
+    margin-bottom: 180px;
+}
+
+#portpolio-5 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-5 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-5 .portpolio-txt-box .btn{
+    font-size: 20px;
+    font-weight: 400;
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-5 .portpolio-txt-box .btn a{
+color: #BCCEDC;
+}
+
+/* #portpolio-6 */
+
+#grapic {
+    
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+
+}
+#grapic .grapic-txt{
+    outline: 1px solid blue;
+    /* height: 980px; */
+}
+#grapic .grapic-txt h1{
+    /* padding-top: 80px ; */
+    font-size: 50px;
+    font-family: "hesomcha";
+    font-weight: 400;
+    color: var(--main-color);
+    outline: 1px solid red;
+    margin-bottom: 30px;
+}
+#grapic p{
+    font-size: 20px;
+    
+}
+
