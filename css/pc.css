@@ -51,7 +51,7 @@
     width: 1280px;
     margin: auto;
 /*     outline: 1px solid red; */
-   }
+}
 
 #aboutme .t-box h2 {
     margin-left:-30px;
@@ -483,7 +483,7 @@ margin: auto;
     margin-top:35px;
     height: 600px;
     width: 50%;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     position: relative;
 
 }
@@ -564,17 +564,14 @@ color: #BCCEDC;
     text-align: center;
 
 }
-#grapic .grapic-txt{
-    outline: 1px solid blue;
-    /* height: 980px; */
-}
+
 #grapic .grapic-txt h1{
     /* padding-top: 80px ; */
     font-size: 50px;
     font-family: "hesomcha";
     font-weight: 400;
     color: var(--main-color);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-bottom: 20px;
 }
 #grapic p{
