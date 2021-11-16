@@ -178,7 +178,7 @@ margin: auto;
 #portpolio-1 .logo {
     width: 260px;
     height: 80px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 }
 
 #portpolio-1 .portpolio-txt-box h3 {
@@ -260,9 +260,9 @@ margin: auto;
 }
 
 #portpolio-2 .logo {
-    width: 260px;
+    width: 400px;
     
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 }
 
 #portpolio-2 .portpolio-txt-box h3 {
@@ -347,7 +347,7 @@ margin: auto;
 #portpolio-3 .logo {
     width: 260px;
     
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 }
 
 #portpolio-3 .portpolio-txt-box h3 {
@@ -431,7 +431,7 @@ margin: auto;
 
 #portpolio-4 .logo {
     width: 260px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 #portpolio-4 .portpolio-txt-box h3 {
