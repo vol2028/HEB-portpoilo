@@ -457,6 +457,7 @@ margin: auto;
     display: inline-block;
     margin-top: 40px;
     margin-right: 40px;
+    color: #2C7BCA;
 }
 #portpolio-4 .portpolio-txt-box .btn a{
 color: #2C7BCA;
@@ -551,7 +552,7 @@ margin: auto;
     margin-top: 40px;
     margin-right: 40px;
 }
-#portpolio-5 .portpolio-txt-box .btn{
+#portpolio-5 .portpolio-txt-box .btn a{
 color: #BCCEDC;
 }
 
