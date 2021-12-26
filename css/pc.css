@@ -1,40 +1,35 @@
 /* section1 */
 #section1{
-    background-image: url(../images/bg2.jpg);
-
+    background:#f2f3f7;
+    background-position:center;
+    background-size: 100% 98%;
+    background-repeat: no-repeat;
 }
-#section1 .container .main-box{
-    align-items: center;
-    display:flex;
-    justify-content: center;
+#section1 .profile{
+    height:80%;
+    position: absolute;
+    top: 12%;
+    left:26%;
     
-    
-
 }
-#section1 .container .main-box .main-txt {
-    font-family: 'Papyrus';
-    text-align: center;
-    margin-right: 50px;
+#section1 .pp-txt{
+    height:60%;
+    position:absolute;
+    left: 30%;
+    top:20%;
+    animation: pp-txt 20s linear infinite;
+    transform-origin: 50% 50%;
+    z-index: 9999;
 }
-#section1 .main-txt > p{
-    font-size:4rem;
-    color: var(--txt-color);
-}
-#section1 .main-txt h1 {
-    font-size: 8rem;
-    color: var(--main-color);
-    font-weight: 500;
-}
-#section1 .bg-img>img {
-    width: 400px;
-    height: 442px;
+@keyframes pp-txt{
+    100% {
+        transform: rotate(360deg);
+        }
 }
 /*aboutme*/
 #aboutme {
     width: 100%;
-    background-image: url(../images/bg2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #f2f3f7;
     font-family: 'Noto Sans KR', sans-serif;
 }
 #aboutme .t-box{
@@ -58,7 +53,7 @@
     font-family: 'hesomcha';
     font-size: 3rem;
     font-weight: 300;
-    color: var(--main-color);
+    color: #959595;
     margin-bottom: 10px;
     
 }
@@ -124,6 +119,7 @@
     color: #545454;
     margin-right: 40px;
 }
+
 
 /* portpolio-1 */
 #portpolio-1 {
@@ -457,9 +453,8 @@ margin: auto;
     display: inline-block;
     margin-top: 40px;
     margin-right: 40px;
-    color: #2C7BCA;
 }
-#portpolio-4 .portpolio-txt-box .btn a{
+#portpolio-4 .portpolio-txt-box .btn{
 color: #2C7BCA;
 }
 
@@ -552,7 +547,7 @@ margin: auto;
     margin-top: 40px;
     margin-right: 40px;
 }
-#portpolio-5 .portpolio-txt-box .btn a{
+#portpolio-5 .portpolio-txt-box .btn{
 color: #BCCEDC;
 }
 
