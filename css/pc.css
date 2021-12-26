@@ -555,7 +555,6 @@ color: #BCCEDC;
 
 #grapic {
     
-    background-image: url(../images/bg2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -569,7 +568,7 @@ color: #BCCEDC;
     font-size: 50px;
     font-family: "hesomcha";
     font-weight: 400;
-    color: var(--main-color);
+    color: #959595;
     /* outline: 1px solid red; */
     margin-bottom: 20px;
 }
@@ -581,7 +580,6 @@ color: #BCCEDC;
 
 /* contact-us */
 #contact-us{
-    background-image:url(../images/bg1.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
