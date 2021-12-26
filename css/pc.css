@@ -593,6 +593,10 @@ color: #BCCEDC;
     color:#959595;
 }
 
+#contact-us .kakao{
+    width: 400px;
+}
+
 #contact-us .plus{
     font-size: 20px;
     padding-top: 30px;
