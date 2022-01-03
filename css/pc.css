@@ -554,30 +554,43 @@ color: #BCCEDC;
 /* #portpolio-6 */
 
 #grapic {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #111;
     text-align: center;
 
 }
-
-#grapic .grapic-txt h1{
-    /* padding-top: 80px ; */
-    font-size: 50px;
-    font-family: "hesomcha";
-    font-weight: 400;
-    color: #959595;
-    /* outline: 1px solid red; */
-    margin-bottom: 20px;
-}
-#grapic p{
-    font-size: 20px;
-    color: #545454;
+#grapic .grapic-txt{
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 260px;
     
 }
-
+.grapic-txt h1 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-family: 'hesomcha';
+    color:#959595;
+}
+.grapic-txt p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+#grapic img{
+    width: 200px;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+#grapic img:hover{
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.287); */
+    transform: scale(1.1);
+}
 /* contact-us */
 #contact-us{
     background-position: center;
